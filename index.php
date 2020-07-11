@@ -166,6 +166,7 @@
                             <th>Partners</th>
                             <th>Status</th>
                             <th>Date</th>
+                            <th>Subid</th>
                             <th></th>
                         </tr>
                         </thead>
@@ -203,6 +204,9 @@
                             </td>
                             <td>
                                 <?php echo $leads['dates']; ?>
+                            </td>
+                            <td>
+                                <?php echo $leads['subid']; ?>
                             </td>
 
                             <td class="text-right">

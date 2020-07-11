@@ -18,7 +18,7 @@ if(isset($_POST['name'])){
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "POST",
-        CURLOPT_POSTFIELDS => array('name' => $_POST['name'],'phone' => $_POST['phone'],'partners' => $_POST['partners']),
+        CURLOPT_POSTFIELDS => array('name' => $_POST['name'],'phone' => $_POST['phone'],'partners' => $_POST['partners'],'subid' => $_POST['subid']),
     ));
 
     $response = curl_exec($curl);

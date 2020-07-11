@@ -70,7 +70,9 @@ h1{
             <input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium'];?>"/>
             <input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign'];?>"/>
             <input type="hidden" name="fb_pixel" value="<?=$_GET['fb_pixel'];?>"/>
-            <!--input type="hidden" name="utm_campaign" value="<?=$_GET['sub1'];?>"/-->
+
+            <input type="hidden" name="partners" value="<?=$_GET['partners'];?>"/>
+            <input type="hidden" name="subid" value="<?=$_GET['subid'];?>"/>
             <button class="ifr_button" type="submit">Bestellung</button>
         </form>
     </div>

@@ -13,13 +13,8 @@ if(isset($_POST['name'])){
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $partners = $_POST['partners'];
-
-    echo $name .' '. $phone .' '. $partners;
-
-//    $name = 'kfkkfd';
-//    $phone = '+8339939393';
-//    $partners = 'wevork';
+    $subid = $_POST['subid'];
 
     // записываем в БД
-    $db->execute("INSERT INTO `lead`(`name`, `phone`, `partners`, `status`, `dates`) VALUES ('$name', '$phone', '$partners', '1', NOW())");
+    $db->execute("INSERT INTO `lead`(`name`, `phone`, `partners`, `status`, `dates`, `subid`) VALUES ('$name', '$phone', '$partners', '1', NOW(), '$subid')");
 }
