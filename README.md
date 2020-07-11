@@ -18,7 +18,7 @@
 
 `<iframe src="apiform.php?utm_medium=<?=$_GET['utm_medium'];?>&country=<?=$_GET['country'];?>&offer_id=<?=$_GET['offer_id'];?>&partners=webvork&color=ff6e4a" width="550" height="320" scrolling="no" frameborder="0"></iframe>`
 
-Чтобы сделать по центру заключаем код в теги "<center></center>"
+Чтобы сделать по центру заключаем код в теги `<center>` между ними код `</center>`
 
 и получаете встроенную форму в вашей прокле
 
