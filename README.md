@@ -23,6 +23,7 @@
 
 Разбираем пошагово: 
 
+
 `utm_medium=<?=$_GET['utm_medium'];?> `- забирает метку `utm_medium` из ссылки
 
 `country=<?=$_GET['country'];?>` - забирает метку `country` из ссылки
