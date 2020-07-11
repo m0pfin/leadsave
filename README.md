@@ -15,7 +15,7 @@
 - Открываем любым редактором кода
 - В нужное вам место вставляем следующую строку: 
 
-`<center>
+`\<center>
      <iframe src="apiform.php?utm_medium=<?=$_GET['utm_medium'];?>&country=<?=$_GET['country'];?>&offer_id=<?=$_GET['offer_id'];?>&partners=webvork&color=ff6e4a" width="550" height="320" scrolling="no" frameborder="0"></iframe>
 </center>`
 
